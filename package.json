@@ -6,17 +6,30 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.5",
+    "boom": "^7.3.0",
+    "joi": "^17.11.0",
+    "luxon": "^3.4.4",
+    "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.1",
+    "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/styles.css -o src/index.css",
+    "watch:css": "postcss src/styles.css -o src/index.css --watch"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
